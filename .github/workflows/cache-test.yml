@@ -16,8 +16,8 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: cache-4db863f
-          restore-keys: cache-4db863f
+          key: cache-85700f9
+          restore-keys: cache-85700f9
 
       # Step to print cache hit/miss
       - name: prime-cache-85700f9
