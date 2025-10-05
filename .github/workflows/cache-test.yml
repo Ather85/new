@@ -20,7 +20,7 @@ jobs:
           restore-keys: cache-4db863f
 
       # Step to print cache hit/miss
-      - name: prime-cache-4db863f
+      - name: prime-cache-85700f9
         run: |
           if [ "${{ steps.cache-deps.outputs.cache-hit }}" == 'true' ]; then
             echo "Cache hit!"
